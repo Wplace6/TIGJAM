@@ -471,7 +471,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ccb5eab7b08eb84d8e47d4c4b2b8d3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  breathLength: 5
+  breathLength: 45
   playerObj: {fileID: 1505709554}
 --- !u!4 &792173606
 Transform:
