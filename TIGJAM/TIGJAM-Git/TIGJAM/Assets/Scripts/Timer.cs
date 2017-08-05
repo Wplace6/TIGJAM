@@ -7,58 +7,54 @@ public class Timer : MonoBehaviour {
 
     [Tooltip("How long the game lasts, as a whole number")]
     public int breathLength = 45;
-    public GameObject BlackScreen;
-    public Color BlackScreenColor = new Color(0.0f, 0.0f, 0.0f, 0.0f);
-    public Color ClearScreenColor = new Color(0.0f, 0.0f, 0.0f, 0.0f);
-    public float fadetime;
+    public GameObject BlackScreenPanel;
+
     public bool IsDead = false;
+    private bool UpdateStopper = true;
     public GameObject playerObj;
+    public Animation anim;
 
     //public Vector3 startPosition = new Vector3(0,0,0);
 
     // Update is called once per frame
-    void Start ()
-    {
-        Image img = BlackScreen.GetComponent<Image>();
-        img.color = ClearScreenColor;
-
-    }
-
     void Update ()
     {
         
-        if(playerObj.transform.position.x != 0 && playerObj.transform.position.z != 0)
+        if(playerObj.transform.position.x != 0 && playerObj.transform.position.z != 0 && IsDead == false && UpdateStopper == true)
         {
             StartCoroutine(Example());
         }
-        //if(player position != origin) {alarm[0] = 1 second}
 
-        //if(alarm[0]) {timeLength += ; reset alarm[0]}
-
-        //if(breathLength <= timeLength){kill the player}
-
-        if (IsDead == true)
+        if (IsDead == true && UpdateStopper == true)
         {
-            Image img = BlackScreen.GetComponent<Image>();
-            img.color = Color.Lerp(ClearScreenColor, BlackScreenColor, fadetime);
-            StartCoroutine(Restart());
+            StartCoroutine(Fading());
+            UpdateStopper = false;
         }
 
-	}
+    }
 
   
     IEnumerator Example()
     {
-        
-        yield return new WaitForSeconds(breathLength);
-        print("You're Dead");
-        IsDead = true;
-        
+        if (IsDead == false && UpdateStopper == true)
+        {
+            yield return new WaitForSeconds(breathLength);
+            //Debug.Log("You're Dead");
+            IsDead = true;
+        }
+
     }
 
-    IEnumerator Restart()
+    IEnumerator Fading()
     {
-        yield return new WaitForSeconds(1);
-        Application.LoadLevel(Application.loadedLevel);
+        if (IsDead == true && UpdateStopper == true)
+        {
+            anim = BlackScreenPanel.GetComponent<Animation>();
+            anim.Play();
+            Debug.Log("fading anim should be playing");
+            UpdateStopper = false;
+            yield return new WaitForSeconds(6);
+            Application.LoadLevel(Application.loadedLevel);
+        }
     }
 }

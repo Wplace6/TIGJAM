@@ -31,7 +31,6 @@ GameObject:
   - component: {fileID: 2000000}
   - component: {fileID: 8100000}
   - component: {fileID: 12474086}
-  - component: {fileID: 114707688038090594}
   m_Layer: 0
   m_Name: FirstPersonCharacter
   m_TagString: MainCamera
@@ -353,29 +352,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   breathLength: 45
-  BlackScreen: {fileID: 0}
-  BlackScreenColor: {r: 0, g: 0, b: 0, a: 1}
-  ClearScreenColor: {r: 1, g: 1, b: 1, a: 0}
-  fadetime: 5
+  BlackScreenPanel: {fileID: 0}
   IsDead: 0
   playerObj: {fileID: 100000}
---- !u!114 &114707688038090594
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100002}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b0923359e9e352a4b9b11c7b7161ad67, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Radius: 0.4
-  m_SampleCount: 1
-  m_OcclusionIntensity: 1.5
-  m_Blur: 2
-  m_Downsampling: 2
-  m_OcclusionAttenuation: 1
-  m_MinZ: 0.01
-  m_SSAOShader: {fileID: 4800000, guid: 43ca18288c424f645aaa1e9e07f04c50, type: 3}
-  m_RandomTexture: {fileID: 2800000, guid: a181ca8e3c62f3e4b8f183f6c586b032, type: 3}
+  anim: {fileID: 0}
