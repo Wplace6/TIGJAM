@@ -1,38 +1,60 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Timer : MonoBehaviour {
 
     [Tooltip("How long the game lasts, as a whole number")]
     public int breathLength = 45;
+    public GameObject BlackScreenPanel;
 
+    public bool IsDead = false;
+    private bool UpdateStopper = true;
     public GameObject playerObj;
-    public GameObject faderObj;
-	
-	// Update is called once per frame
-	void Update ()
-    {
+    public Animation anim;
 
-        if(playerObj.transform.position.x != 0 && playerObj.transform.position.z != 0)
+    //public Vector3 startPosition = new Vector3(0,0,0);
+
+    // Update is called once per frame
+    void Update ()
+    {
+        
+        if(playerObj.transform.position.x != 0 && playerObj.transform.position.z != 0 && IsDead == false && UpdateStopper == true)
         {
             StartCoroutine(Example());
         }
-		//if(player position != origin) {alarm[0] = 1 second}
 
-        //if(alarm[0]) {timeLength += ; reset alarm[0]}
+        if (IsDead == true && UpdateStopper == true)
+        {
+            StartCoroutine(Fading());
+            UpdateStopper = false;
+        }
 
-        //if(breathLength <= timeLength){kill the player}
-
-	}
+    }
 
   
     IEnumerator Example()
     {
-        
-        yield return new WaitForSeconds(breathLength);
-       // faderObj.GetComponent("Renderer").material.color.a -= 0.2;
+        if (IsDead == false && UpdateStopper == true)
+        {
+            yield return new WaitForSeconds(breathLength);
+            //Debug.Log("You're Dead");
+            IsDead = true;
+        }
 
-        print("You're Dead");
+    }
+
+    IEnumerator Fading()
+    {
+        if (IsDead == true && UpdateStopper == true)
+        {
+            anim = BlackScreenPanel.GetComponent<Animation>();
+            anim.Play();
+            Debug.Log("fading anim should be playing");
+            UpdateStopper = false;
+            yield return new WaitForSeconds(6);
+            Application.LoadLevel(Application.loadedLevel);
+        }
     }
 }
