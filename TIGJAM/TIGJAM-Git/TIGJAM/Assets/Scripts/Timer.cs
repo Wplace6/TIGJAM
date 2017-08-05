@@ -8,7 +8,7 @@ public class Timer : MonoBehaviour {
     public int breathLength = 45;
 
     public GameObject playerObj;
-    //public Vector3 startPosition = new Vector3(0,0,0);
+    public GameObject faderObj;
 	
 	// Update is called once per frame
 	void Update ()
@@ -31,6 +31,8 @@ public class Timer : MonoBehaviour {
     {
         
         yield return new WaitForSeconds(breathLength);
+       // faderObj.GetComponent("Renderer").material.color.a -= 0.2;
+
         print("You're Dead");
     }
 }
