@@ -1,0 +1,149 @@
+fileFormatVersion: 2
+guid: 4c0e6136127793f45b30fafc60ffd8b4
+timeCreated: 1501987463
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: ArmMesh
+    100002: ClamShellMeshes
+    100004: ClamShellMeshes1
+    100006: //RootNode
+    100008: FloorMesh
+    100010: Gold
+    100012: MainRuinBase
+    100014: polySurface35
+    100016: RockWallMesh
+    100018: RuinBrokenRingMesh
+    100020: RuinPillarMeshes
+    100022: RuinStatuePodiumMesh
+    100024: ShipMesh
+    100026: TrenchWallMesh
+    400000: ArmMesh
+    400002: ClamShellMeshes
+    400004: ClamShellMeshes1
+    400006: //RootNode
+    400008: FloorMesh
+    400010: Gold
+    400012: MainRuinBase
+    400014: polySurface35
+    400016: RockWallMesh
+    400018: RuinBrokenRingMesh
+    400020: RuinPillarMeshes
+    400022: RuinStatuePodiumMesh
+    400024: ShipMesh
+    400026: TrenchWallMesh
+    2300000: ArmMesh
+    2300002: ClamShellMeshes
+    2300004: ClamShellMeshes1
+    2300006: FloorMesh
+    2300008: Gold
+    2300010: MainRuinBase
+    2300012: polySurface35
+    2300014: RockWallMesh
+    2300016: RuinBrokenRingMesh
+    2300018: RuinPillarMeshes
+    2300020: RuinStatuePodiumMesh
+    2300022: ShipMesh
+    2300024: TrenchWallMesh
+    3300000: ArmMesh
+    3300002: ClamShellMeshes
+    3300004: ClamShellMeshes1
+    3300006: FloorMesh
+    3300008: Gold
+    3300010: MainRuinBase
+    3300012: polySurface35
+    3300014: RockWallMesh
+    3300016: RuinBrokenRingMesh
+    3300018: RuinPillarMeshes
+    3300020: RuinStatuePodiumMesh
+    3300022: ShipMesh
+    3300024: TrenchWallMesh
+    4300000: ShipMesh
+    4300002: FloorMesh
+    4300004: Gold
+    4300006: TrenchWallMesh
+    4300008: polySurface35
+    4300010: RockWallMesh
+    4300012: RuinBrokenRingMesh
+    4300014: RuinPillarMeshes
+    4300016: RuinStatuePodiumMesh
+    4300018: ClamShellMeshes
+    4300020: ClamShellMeshes1
+    4300022: MainRuinBase
+    4300024: ArmMesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

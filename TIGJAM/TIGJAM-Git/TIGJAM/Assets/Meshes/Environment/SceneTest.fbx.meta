@@ -1,0 +1,185 @@
+fileFormatVersion: 2
+guid: 64d70bc1e0bb54c4a9a6da915e5ec223
+timeCreated: 1501923369
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Gold
+    100002: pCube10
+    100004: pCube7
+    100006: pCube8
+    100008: pCube9
+    100010: pCylinder1
+    100012: pCylinder2
+    100014: PirateRockMesh
+    100016: polySurface12
+    100018: polySurface3
+    100020: polySurface51
+    100022: polySurface52
+    100024: polySurface53
+    100026: polySurface54
+    100028: polySurface55
+    100030: polySurface57
+    100032: polySurface58
+    100034: polySurface59
+    100036: polySurface60
+    100038: pTorus1
+    100040: RuinRockMesh
+    100042: RuinRocks2
+    100044: RuinRocks3
+    100046: //RootNode
+    100048: SceneTest
+    100050: ShipMesh
+    100052: ShipMeshTestMesh
+    100054: transform13
+    100056: transform14
+    100058: transform15
+    100060: transform16
+    100062: transform17
+    100064: transform18
+    100066: transform19
+    100068: transform20
+    100070: transform21
+    100072: transform22
+    100074: transform23
+    100076: transform24
+    100078: transform25
+    100080: transform26
+    100082: transform27
+    100084: transform28
+    100086: transform29
+    100088: transform30
+    100090: transform31
+    100092: transform32
+    100094: transform33
+    100096: transform34
+    100098: TrenchWallMesh
+    400000: Gold
+    400002: pCube10
+    400004: pCube7
+    400006: pCube8
+    400008: pCube9
+    400010: pCylinder1
+    400012: pCylinder2
+    400014: PirateRockMesh
+    400016: polySurface12
+    400018: polySurface3
+    400020: polySurface51
+    400022: polySurface52
+    400024: polySurface53
+    400026: polySurface54
+    400028: polySurface55
+    400030: polySurface57
+    400032: polySurface58
+    400034: polySurface59
+    400036: polySurface60
+    400038: pTorus1
+    400040: RuinRockMesh
+    400042: RuinRocks2
+    400044: RuinRocks3
+    400046: SceneTest
+    400048: //RootNode
+    400050: ShipMesh
+    400052: ShipMeshTestMesh
+    400054: transform13
+    400056: transform14
+    400058: transform15
+    400060: transform16
+    400062: transform17
+    400064: transform18
+    400066: transform19
+    400068: transform20
+    400070: transform21
+    400072: transform22
+    400074: transform23
+    400076: transform24
+    400078: transform25
+    400080: transform26
+    400082: transform27
+    400084: transform28
+    400086: transform29
+    400088: transform30
+    400090: transform31
+    400092: transform32
+    400094: transform33
+    400096: transform34
+    400098: TrenchWallMesh
+    2300000: SceneTest
+    3300000: SceneTest
+    4300000: SceneTest
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,143 @@
+fileFormatVersion: 2
+guid: a60668879e92d8249893a9a914b7e88f
+timeCreated: 1501946496
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: ClamShellMeshes
+    100002: FloorMesh
+    100004: Gold
+    100006: polySurface12
+    100008: polySurface3
+    100010: RockWallMesh
+    100012: RuinBase
+    100014: RuinBrokenRingMesh
+    100016: RuinPillarMeshes
+    100018: RuinStatuePodiumMesh
+    100020: //RootNode
+    100022: ShipMesh
+    100024: ShipMeshTestMesh
+    100026: TrenchWallMesh
+    400000: ClamShellMeshes
+    400002: FloorMesh
+    400004: Gold
+    400006: polySurface12
+    400008: polySurface3
+    400010: RockWallMesh
+    400012: RuinBase
+    400014: RuinBrokenRingMesh
+    400016: RuinPillarMeshes
+    400018: RuinStatuePodiumMesh
+    400020: //RootNode
+    400022: ShipMesh
+    400024: ShipMeshTestMesh
+    400026: TrenchWallMesh
+    2300000: ClamShellMeshes
+    2300002: FloorMesh
+    2300004: Gold
+    2300006: polySurface3
+    2300008: RockWallMesh
+    2300010: RuinBase
+    2300012: RuinBrokenRingMesh
+    2300014: RuinPillarMeshes
+    2300016: RuinStatuePodiumMesh
+    2300018: ShipMesh
+    2300020: TrenchWallMesh
+    3300000: ClamShellMeshes
+    3300002: FloorMesh
+    3300004: Gold
+    3300006: polySurface3
+    3300008: RockWallMesh
+    3300010: RuinBase
+    3300012: RuinBrokenRingMesh
+    3300014: RuinPillarMeshes
+    3300016: RuinStatuePodiumMesh
+    3300018: ShipMesh
+    3300020: TrenchWallMesh
+    4300000: polySurface3
+    4300002: FloorMesh
+    4300004: ShipMesh
+    4300006: Gold
+    4300008: TrenchWallMesh
+    4300010: RuinBase
+    4300012: RockWallMesh
+    4300014: RuinBrokenRingMesh
+    4300016: RuinPillarMeshes
+    4300018: RuinStatuePodiumMesh
+    4300020: ClamShellMeshes
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
