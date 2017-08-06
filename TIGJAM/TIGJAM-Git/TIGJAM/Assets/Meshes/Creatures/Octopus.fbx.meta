@@ -1,0 +1,233 @@
+fileFormatVersion: 2
+guid: 9cf825d6c29206d4dbf9d27c90bd63be
+timeCreated: 1502004011
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: group1
+    100002: Octo_06skin:arm_a_l_1
+    100004: Octo_06skin:arm_a_l_2
+    100006: Octo_06skin:arm_a_l_3
+    100008: Octo_06skin:arm_a_l_4
+    100010: Octo_06skin:arm_a_l_5
+    100012: Octo_06skin:arm_a_l_6
+    100014: Octo_06skin:arm_a_r_1
+    100016: Octo_06skin:arm_a_r_2
+    100018: Octo_06skin:arm_a_r_3
+    100020: Octo_06skin:arm_a_r_4
+    100022: Octo_06skin:arm_a_r_5
+    100024: Octo_06skin:arm_a_r_6
+    100026: Octo_06skin:arm_b_l_1
+    100028: Octo_06skin:arm_b_l_2
+    100030: Octo_06skin:arm_b_l_3
+    100032: Octo_06skin:arm_b_l_4
+    100034: Octo_06skin:arm_b_l_5
+    100036: Octo_06skin:arm_b_l_6
+    100038: Octo_06skin:arm_b_r_1
+    100040: Octo_06skin:arm_b_r_2
+    100042: Octo_06skin:arm_b_r_3
+    100044: Octo_06skin:arm_b_r_4
+    100046: Octo_06skin:arm_b_r_5
+    100048: Octo_06skin:arm_b_r_6
+    100050: Octo_06skin:arm_c_l_1
+    100052: Octo_06skin:arm_c_l_2
+    100054: Octo_06skin:arm_c_l_3
+    100056: Octo_06skin:arm_c_l_4
+    100058: Octo_06skin:arm_c_l_5
+    100060: Octo_06skin:arm_c_l_6
+    100062: Octo_06skin:arm_c_r_1
+    100064: Octo_06skin:arm_c_r_2
+    100066: Octo_06skin:arm_c_r_3
+    100068: Octo_06skin:arm_c_r_4
+    100070: Octo_06skin:arm_c_r_5
+    100072: Octo_06skin:arm_c_r_6
+    100074: Octo_06skin:arm_d_l_1
+    100076: Octo_06skin:arm_d_l_2
+    100078: Octo_06skin:arm_d_l_3
+    100080: Octo_06skin:arm_d_l_4
+    100082: Octo_06skin:arm_d_l_5
+    100084: Octo_06skin:arm_d_r_1
+    100086: Octo_06skin:arm_d_r_2
+    100088: Octo_06skin:arm_d_r_3
+    100090: Octo_06skin:arm_d_r_4
+    100092: Octo_06skin:arm_d_r_5
+    100094: Octo_06skin:body
+    100096: Octo_06skin:head_1
+    100098: Octo_06skin:head_2
+    100100: Octo_06skin:head_3
+    100102: Octo_06skin:head_4
+    100104: Octo_06skin:head_5
+    100106: Octo_06skin:Octo_04:Group3
+    100108: Octo_06skin:root
+    100110: //RootNode
+    100112: octoRig
+    100114: RockWallMesh
+    400000: group1
+    400002: Octo_06skin:arm_a_l_1
+    400004: Octo_06skin:arm_a_l_2
+    400006: Octo_06skin:arm_a_l_3
+    400008: Octo_06skin:arm_a_l_4
+    400010: Octo_06skin:arm_a_l_5
+    400012: Octo_06skin:arm_a_l_6
+    400014: Octo_06skin:arm_a_r_1
+    400016: Octo_06skin:arm_a_r_2
+    400018: Octo_06skin:arm_a_r_3
+    400020: Octo_06skin:arm_a_r_4
+    400022: Octo_06skin:arm_a_r_5
+    400024: Octo_06skin:arm_a_r_6
+    400026: Octo_06skin:arm_b_l_1
+    400028: Octo_06skin:arm_b_l_2
+    400030: Octo_06skin:arm_b_l_3
+    400032: Octo_06skin:arm_b_l_4
+    400034: Octo_06skin:arm_b_l_5
+    400036: Octo_06skin:arm_b_l_6
+    400038: Octo_06skin:arm_b_r_1
+    400040: Octo_06skin:arm_b_r_2
+    400042: Octo_06skin:arm_b_r_3
+    400044: Octo_06skin:arm_b_r_4
+    400046: Octo_06skin:arm_b_r_5
+    400048: Octo_06skin:arm_b_r_6
+    400050: Octo_06skin:arm_c_l_1
+    400052: Octo_06skin:arm_c_l_2
+    400054: Octo_06skin:arm_c_l_3
+    400056: Octo_06skin:arm_c_l_4
+    400058: Octo_06skin:arm_c_l_5
+    400060: Octo_06skin:arm_c_l_6
+    400062: Octo_06skin:arm_c_r_1
+    400064: Octo_06skin:arm_c_r_2
+    400066: Octo_06skin:arm_c_r_3
+    400068: Octo_06skin:arm_c_r_4
+    400070: Octo_06skin:arm_c_r_5
+    400072: Octo_06skin:arm_c_r_6
+    400074: Octo_06skin:arm_d_l_1
+    400076: Octo_06skin:arm_d_l_2
+    400078: Octo_06skin:arm_d_l_3
+    400080: Octo_06skin:arm_d_l_4
+    400082: Octo_06skin:arm_d_l_5
+    400084: Octo_06skin:arm_d_r_1
+    400086: Octo_06skin:arm_d_r_2
+    400088: Octo_06skin:arm_d_r_3
+    400090: Octo_06skin:arm_d_r_4
+    400092: Octo_06skin:arm_d_r_5
+    400094: Octo_06skin:body
+    400096: Octo_06skin:head_1
+    400098: Octo_06skin:head_2
+    400100: Octo_06skin:head_3
+    400102: Octo_06skin:head_4
+    400104: Octo_06skin:head_5
+    400106: Octo_06skin:Octo_04:Group3
+    400108: Octo_06skin:root
+    400110: //RootNode
+    400112: octoRig
+    400114: RockWallMesh
+    2300000: RockWallMesh
+    3300000: RockWallMesh
+    4300000: RockWallMesh
+    4300002: Octo_06skin:Octo_04:Group3
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Octo_06skin:Octo_04:Group3
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
